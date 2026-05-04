@@ -50,38 +50,4 @@
 </body>
 </html>
 
-    <div id="ui">
-        <button class="btn str" id="toggleBtn" onclick="flip()">Flip Coin!</button>
-        <div id="msg">
-            <h3>
-        <ul>
-            <li>First think of the side you think will show heads or tails.</li>
-            <li>Then press the button to see if you’re right.</li>
-        </ul> </h3>
-        <h1 id=ll></h1>
     
-    <img id="myImage"src="coins.jpeg" style="width:250">
-        <h2>READ THIS!!!</h2> <h3>Press the REFRESH button when your DONE for OTHERS to use.</h3>
-    </div>
-</div>
-<script>
-    function flip() {
-        var ro=Math.round(Math.random()*11);
-        if (ro>5)
-        {
-            alert("You got heads!");
-            document.getElementById('ll').innerHTML="You got heads!";
-            document.getElementById('myImage').src='head.jpeg';
-        }
-        else 
-        {
-            alert("You got tails!");
-            document.getElementById('ll').innerHTML="You got tails!";
-            document.getElementById('myImage').src='tail.webp';
-        }
-        
-                    }
-
-</script>
-</body>
-</html>
